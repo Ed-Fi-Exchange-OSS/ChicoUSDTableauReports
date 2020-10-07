@@ -1,21 +1,22 @@
-﻿# Chico California Unified School District - Tableau Reports
+﻿# Chronic Absenteeism Reports for Tableau
+## Contributed by Chico Unified School District
 
-These Tableau reports were made possible thanks to the efforts of Chico Unified
-School District in Chico California & the Michael and Susan Dell Foundation.
+These Chronic Absenteeism reports for Tableau were made possible thanks to the efforts of Chico Unified
+School District in Chico, California.
 
 ## Description
 
-This repository contains 2 folders that have 3 Tableau reports each. These
+This repository contains 2 folders that have 3 Tableau report folders each. These
 reports are the same in each folder. The main difference is that we have built a
-set using Excel as the data source. This to be able to see the reports with the
+set using Excel as the data source to be able to see the reports with the
 free Tableau Reader.
 
 The reports cover the reporting needs for Chico Unified School District based
-out of Chico California. Here is a list of what is included:
+out of Chico, California. Here is a list of what is included:
 
 * Attendance YTD
-* Discipline YTD
-* COA2 (Central Attendance Office #2 - Classroom Load by Teacher)
+* Suspensions YTD
+* Absence Impact Analysis
 
 ## Prerequisites
 
@@ -34,7 +35,7 @@ not been tested with other versions.
 ### For Running the Reports Against a Live Database
 
 1. Tableau Desktop 2020.1 or higher.
-2. MsSQL Server 2016 or higher with a v2.6.0 Ed-Fi ODS populated template.
+2. Ms SQL Server 2016 or higher with a v2.6.0 Ed-Fi ODS populated template.
 3. MS-SSMS: Microsoft's Sql Server Management Studio 2016 or higher.
 4. An Ed-Fi ODS v2.6.0 Database. We reocmmend the EdFi_Ods_PopulatedTemplate or
    you could use your staging or production database.
